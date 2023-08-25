@@ -1,0 +1,537 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/b783522913a7118efdc64dfd9fd3a8ce/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/ee73c222f7b7dbb82368a9ebb81ed45a/transformed/jetified-databinding-ktx-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/3f13514dfd5df85ce31f9af77a6f3643/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.4] /Users/ggangmin/.gradle/caches/transforms-3/348d933fce8e386bbcb82a760850b0c0/transformed/jetified-fragment-ktx-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/ggangmin/.gradle/caches/transforms-3/6ff6fca440ca3b83d1795624ce12c466/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/ggangmin/.gradle/caches/transforms-3/52eea65e579aee63be4274025184aa09/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ggangmin/.gradle/caches/transforms-3/4cf804f996de9b40b73b67f2d3cf8f7f/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.9.0] /Users/ggangmin/.gradle/caches/transforms-3/981f5453a62662c44b67ef4b0b70688d/transformed/jetified-mapbox-android-plugin-annotation-v9-0.9.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.11.0] /Users/ggangmin/.gradle/caches/transforms-3/67fbd57a75a03ee10e3b9461ac29d33d/transformed/jetified-mapbox-android-plugin-locationlayer-0.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:0.12.0] /Users/ggangmin/.gradle/caches/transforms-3/d4504ea52db493c9bc519695080763d4/transformed/jetified-mapbox-android-plugin-localization-v9-0.12.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:0.4.0] /Users/ggangmin/.gradle/caches/transforms-3/014e00be80f6d9fa32ef8f94387efed5/transformed/jetified-mapbox-android-plugin-markerview-v9-0.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:2:1-38:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/db7519d88505422057a9c332ce576144/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/76adb8882196454dc3ae7c01b003fe41/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/ggangmin/.gradle/caches/transforms-3/4a288f98df450ff98636abf016da60a6/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/a15f9e579da349ee5b2e7fe4747490a2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ggangmin/.gradle/caches/transforms-3/69174d3951f4538764edd72250313092/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ggangmin/.gradle/caches/transforms-3/8044979c5fc50221c4a7ce4cbe480cba/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/2418e8ea99d2044fd46929637343415f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/e0e7d2d030f026163002113806295299/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/ggangmin/.gradle/caches/transforms-3/2a1de204844caf73c69590a45a3819e4/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/6f5a650c0dc0017fe18ba3a34bca5bfe/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/d9e9e79e3eb4610c88ea58b757ec08fc/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/834604f2b2fa5692d96b9000251e372d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/43d04a7c4793968f47a2a0c8767d522e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/08b64c53d5593e762298a69d1db1cc3d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.2] /Users/ggangmin/.gradle/caches/transforms-3/61cfe62d56e87296096315d4e2fd9d74/transformed/jetified-activity-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/d73c24c82dd26544747369dea09ae758/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/61469421de675bf7ee15ac1f5e6914dc/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/ggangmin/.gradle/caches/transforms-3/81eaf119ba8e902daccd06fd04487c8a/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/4e5336979fc3df1275c0f6ad3697836e/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/ggangmin/.gradle/caches/transforms-3/26396748a5d27cef33612e6b4b550867/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/27886d50fd050a6935122a129c507c27/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/8691c73b098a231fbe6cfac46a0d2f96/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/076f18d2ff032225f1094793b2ede252/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/e3880ed3fa800ec4440ba860ec52e832/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/2c3116d8f4d8dc613e8364c6f5c5b9f9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/f7913fd96380fe4c77c99bbd8e33a925/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/f00f1cc033bcdb99289a5508ee3ff30b/transformed/jetified-lifecycle-service-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/19e90bf44034d9bc2b9505aec11c5e92/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/d5ad28a8a5fd60194703567a1ac044ad/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/7566ebe774df6beeefd8d5c77bc6be6b/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/4a2f71d730d7ab643eef1cf311bfbcbd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/1e7a06b5ac3335cf8d42129f09c766b8/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/44f2cc392283237a04f85767aba9a325/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/a76b577867bc100774c1409ddbcca362/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/32ce512e43269c6914805b94d975b691/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/e1ab9e8e4e4351cb2369b76076812ed3/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b31c46403fbaf9c3685255ed7e3c1399/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/d5fb69260f78da30381302f5ad1dbb9e/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/898ec3de8dfaf3e2cb5d980f4e1ed582/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /Users/ggangmin/.gradle/caches/transforms-3/1101b2d2b4a8d7cdb85d45699c03c1f0/transformed/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core:1.5.0] /Users/ggangmin/.gradle/caches/transforms-3/e393b140d81038230e1b80dbd02426a6/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/abe8a8c81efe49cfd82ef34800d7e229/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/f49c717b4140bf13f2984854abac879a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.naver.maps:geometry:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/2782ace0237c28e4ed0f082fe156117e/transformed/jetified-geometry-1.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/a2600ef7f05272d314800bd4eddbeee9/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/0d9289692833a5e29e0095b02766dda6/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ggangmin/.gradle/caches/transforms-3/47d02212f3afbd10d5368e765807541a/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b8213547a8a3bba285a53989895f5ad4/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/c7960946c4ad2b18d690bf3c5f3699c9/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/2cfefe66bc9494325dc9f7f33e3f56ad/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b84213a39233717d58eb0944cf240f56/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ggangmin/.gradle/caches/transforms-3/33dd3301aef2ec274c89852bc067263e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /Users/ggangmin/.gradle/caches/transforms-3/1586158688dac7a76ee330923eaa98eb/transformed/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/4358a24ea4b1501bc3fc5de0226f2756/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/e60c1f669fe7755d133545a7df3430b3/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ggangmin/.gradle/caches/transforms-3/9fbbea5f211aeef8cbd4e17a7811305b/transformed/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/ggangmin/.gradle/caches/transforms-3/2446304bf2874b7b607053b0d95adc4e/transformed/jetified-relinker-1.4.3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /Users/ggangmin/.gradle/caches/transforms-3/2ef2d8b2723fca0a8f0c9910aff154f5/transformed/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+	package
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:1-53:12
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:3:5-81
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:3:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:4:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:16:5-67
+MERGED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:7:22-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:17:5-79
+MERGED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /Users/ggangmin/.gradle/caches/transforms-3/2ef2d8b2723fca0a8f0c9910aff154f5/transformed/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /Users/ggangmin/.gradle/caches/transforms-3/2ef2d8b2723fca0a8f0c9910aff154f5/transformed/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:10:22-68
+application
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:12:5-51:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/ggangmin/.gradle/caches/transforms-3/52eea65e579aee63be4274025184aa09/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/ggangmin/.gradle/caches/transforms-3/52eea65e579aee63be4274025184aa09/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ggangmin/.gradle/caches/transforms-3/4cf804f996de9b40b73b67f2d3cf8f7f/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ggangmin/.gradle/caches/transforms-3/4cf804f996de9b40b73b67f2d3cf8f7f/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:20:5-36:19
+MERGED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:20:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/ggangmin/.gradle/caches/transforms-3/4a288f98df450ff98636abf016da60a6/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/ggangmin/.gradle/caches/transforms-3/4a288f98df450ff98636abf016da60a6/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/a15f9e579da349ee5b2e7fe4747490a2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/a15f9e579da349ee5b2e7fe4747490a2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ggangmin/.gradle/caches/transforms-3/69174d3951f4538764edd72250313092/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ggangmin/.gradle/caches/transforms-3/69174d3951f4538764edd72250313092/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ggangmin/.gradle/caches/transforms-3/8044979c5fc50221c4a7ce4cbe480cba/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ggangmin/.gradle/caches/transforms-3/8044979c5fc50221c4a7ce4cbe480cba/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/2418e8ea99d2044fd46929637343415f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/2418e8ea99d2044fd46929637343415f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:17:5-27:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:17:5-27:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.5.0] /Users/ggangmin/.gradle/caches/transforms-3/e393b140d81038230e1b80dbd02426a6/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/ggangmin/.gradle/caches/transforms-3/e393b140d81038230e1b80dbd02426a6/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b8213547a8a3bba285a53989895f5ad4/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b8213547a8a3bba285a53989895f5ad4/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ggangmin/.gradle/caches/transforms-3/33dd3301aef2ec274c89852bc067263e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ggangmin/.gradle/caches/transforms-3/33dd3301aef2ec274c89852bc067263e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ggangmin/.gradle/caches/transforms-3/9fbbea5f211aeef8cbd4e17a7811305b/transformed/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ggangmin/.gradle/caches/transforms-3/9fbbea5f211aeef8cbd4e17a7811305b/transformed/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/ggangmin/.gradle/caches/transforms-3/e393b140d81038230e1b80dbd02426a6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:19:9-41
+	android:roundIcon
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:16:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:14:9-69
+activity#com.example.flatload.DatabaseResultActivity
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:21:9-69
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:21:19-57
+activity#com.example.flatload.MarkerResultActivity
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:22:9-67
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:22:19-55
+activity#com.example.flatload.TestGetServerActivity
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:23:9-59
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:23:19-56
+activity#com.example.flatload.MainActivity
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:exported
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:25:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:29:27-74
+meta-data#com.google.android.gms.version
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:33:9-35:69
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/2418e8ea99d2044fd46929637343415f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/2418e8ea99d2044fd46929637343415f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:35:13-66
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:34:13-58
+meta-data#com.naver.maps.map.CLIENT_ID
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:36:9-38:41
+	android:value
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:38:13-39
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:37:13-56
+provider#androidx.core.content.FileProvider
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:39:9-47:20
+	android:grantUriPermissions
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:43:13-47
+	android:authorities
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:41:13-64
+	android:exported
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:40:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:44:13-46:53
+	android:resource
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:46:17-50
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:45:17-67
+meta-data#com.kakao.sdk.AppKey
+ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:48:9-50:52
+	android:value
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:50:13-50
+	android:name
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml:49:13-48
+uses-sdk
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/b783522913a7118efdc64dfd9fd3a8ce/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/b783522913a7118efdc64dfd9fd3a8ce/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/ee73c222f7b7dbb82368a9ebb81ed45a/transformed/jetified-databinding-ktx-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/ee73c222f7b7dbb82368a9ebb81ed45a/transformed/jetified-databinding-ktx-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/3f13514dfd5df85ce31f9af77a6f3643/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/3f13514dfd5df85ce31f9af77a6f3643/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.4] /Users/ggangmin/.gradle/caches/transforms-3/348d933fce8e386bbcb82a760850b0c0/transformed/jetified-fragment-ktx-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.4] /Users/ggangmin/.gradle/caches/transforms-3/348d933fce8e386bbcb82a760850b0c0/transformed/jetified-fragment-ktx-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/ggangmin/.gradle/caches/transforms-3/6ff6fca440ca3b83d1795624ce12c466/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/ggangmin/.gradle/caches/transforms-3/6ff6fca440ca3b83d1795624ce12c466/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/ggangmin/.gradle/caches/transforms-3/52eea65e579aee63be4274025184aa09/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/ggangmin/.gradle/caches/transforms-3/52eea65e579aee63be4274025184aa09/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ggangmin/.gradle/caches/transforms-3/4cf804f996de9b40b73b67f2d3cf8f7f/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ggangmin/.gradle/caches/transforms-3/4cf804f996de9b40b73b67f2d3cf8f7f/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.9.0] /Users/ggangmin/.gradle/caches/transforms-3/981f5453a62662c44b67ef4b0b70688d/transformed/jetified-mapbox-android-plugin-annotation-v9-0.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.9.0] /Users/ggangmin/.gradle/caches/transforms-3/981f5453a62662c44b67ef4b0b70688d/transformed/jetified-mapbox-android-plugin-annotation-v9-0.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.11.0] /Users/ggangmin/.gradle/caches/transforms-3/67fbd57a75a03ee10e3b9461ac29d33d/transformed/jetified-mapbox-android-plugin-locationlayer-0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.11.0] /Users/ggangmin/.gradle/caches/transforms-3/67fbd57a75a03ee10e3b9461ac29d33d/transformed/jetified-mapbox-android-plugin-locationlayer-0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:0.12.0] /Users/ggangmin/.gradle/caches/transforms-3/d4504ea52db493c9bc519695080763d4/transformed/jetified-mapbox-android-plugin-localization-v9-0.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:0.12.0] /Users/ggangmin/.gradle/caches/transforms-3/d4504ea52db493c9bc519695080763d4/transformed/jetified-mapbox-android-plugin-localization-v9-0.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:0.4.0] /Users/ggangmin/.gradle/caches/transforms-3/014e00be80f6d9fa32ef8f94387efed5/transformed/jetified-mapbox-android-plugin-markerview-v9-0.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:0.4.0] /Users/ggangmin/.gradle/caches/transforms-3/014e00be80f6d9fa32ef8f94387efed5/transformed/jetified-mapbox-android-plugin-markerview-v9-0.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/db7519d88505422057a9c332ce576144/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/db7519d88505422057a9c332ce576144/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/76adb8882196454dc3ae7c01b003fe41/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/76adb8882196454dc3ae7c01b003fe41/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/ggangmin/.gradle/caches/transforms-3/4a288f98df450ff98636abf016da60a6/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/ggangmin/.gradle/caches/transforms-3/4a288f98df450ff98636abf016da60a6/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/a15f9e579da349ee5b2e7fe4747490a2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/a15f9e579da349ee5b2e7fe4747490a2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ggangmin/.gradle/caches/transforms-3/69174d3951f4538764edd72250313092/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ggangmin/.gradle/caches/transforms-3/69174d3951f4538764edd72250313092/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ggangmin/.gradle/caches/transforms-3/8044979c5fc50221c4a7ce4cbe480cba/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/ggangmin/.gradle/caches/transforms-3/8044979c5fc50221c4a7ce4cbe480cba/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/2418e8ea99d2044fd46929637343415f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/2418e8ea99d2044fd46929637343415f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/e0e7d2d030f026163002113806295299/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/e0e7d2d030f026163002113806295299/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/ggangmin/.gradle/caches/transforms-3/2a1de204844caf73c69590a45a3819e4/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/ggangmin/.gradle/caches/transforms-3/2a1de204844caf73c69590a45a3819e4/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/6f5a650c0dc0017fe18ba3a34bca5bfe/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/6f5a650c0dc0017fe18ba3a34bca5bfe/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/d9e9e79e3eb4610c88ea58b757ec08fc/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/d9e9e79e3eb4610c88ea58b757ec08fc/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/834604f2b2fa5692d96b9000251e372d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/834604f2b2fa5692d96b9000251e372d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/43d04a7c4793968f47a2a0c8767d522e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/43d04a7c4793968f47a2a0c8767d522e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/08b64c53d5593e762298a69d1db1cc3d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/08b64c53d5593e762298a69d1db1cc3d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.2] /Users/ggangmin/.gradle/caches/transforms-3/61cfe62d56e87296096315d4e2fd9d74/transformed/jetified-activity-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.2] /Users/ggangmin/.gradle/caches/transforms-3/61cfe62d56e87296096315d4e2fd9d74/transformed/jetified-activity-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/d73c24c82dd26544747369dea09ae758/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/d73c24c82dd26544747369dea09ae758/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/61469421de675bf7ee15ac1f5e6914dc/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/61469421de675bf7ee15ac1f5e6914dc/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/ggangmin/.gradle/caches/transforms-3/81eaf119ba8e902daccd06fd04487c8a/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/ggangmin/.gradle/caches/transforms-3/81eaf119ba8e902daccd06fd04487c8a/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/4e5336979fc3df1275c0f6ad3697836e/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/4e5336979fc3df1275c0f6ad3697836e/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/ggangmin/.gradle/caches/transforms-3/26396748a5d27cef33612e6b4b550867/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/ggangmin/.gradle/caches/transforms-3/26396748a5d27cef33612e6b4b550867/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/27886d50fd050a6935122a129c507c27/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/27886d50fd050a6935122a129c507c27/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/8691c73b098a231fbe6cfac46a0d2f96/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/8691c73b098a231fbe6cfac46a0d2f96/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/076f18d2ff032225f1094793b2ede252/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/076f18d2ff032225f1094793b2ede252/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/e3880ed3fa800ec4440ba860ec52e832/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/e3880ed3fa800ec4440ba860ec52e832/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/2c3116d8f4d8dc613e8364c6f5c5b9f9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/2c3116d8f4d8dc613e8364c6f5c5b9f9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/f7913fd96380fe4c77c99bbd8e33a925/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/ggangmin/.gradle/caches/transforms-3/f7913fd96380fe4c77c99bbd8e33a925/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/f00f1cc033bcdb99289a5508ee3ff30b/transformed/jetified-lifecycle-service-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/f00f1cc033bcdb99289a5508ee3ff30b/transformed/jetified-lifecycle-service-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/19e90bf44034d9bc2b9505aec11c5e92/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/19e90bf44034d9bc2b9505aec11c5e92/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/d5ad28a8a5fd60194703567a1ac044ad/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/d5ad28a8a5fd60194703567a1ac044ad/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/7566ebe774df6beeefd8d5c77bc6be6b/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/7566ebe774df6beeefd8d5c77bc6be6b/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/4a2f71d730d7ab643eef1cf311bfbcbd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/4a2f71d730d7ab643eef1cf311bfbcbd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/1e7a06b5ac3335cf8d42129f09c766b8/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/1e7a06b5ac3335cf8d42129f09c766b8/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/44f2cc392283237a04f85767aba9a325/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/44f2cc392283237a04f85767aba9a325/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/a76b577867bc100774c1409ddbcca362/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ggangmin/.gradle/caches/transforms-3/a76b577867bc100774c1409ddbcca362/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/32ce512e43269c6914805b94d975b691/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/32ce512e43269c6914805b94d975b691/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/e1ab9e8e4e4351cb2369b76076812ed3/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/e1ab9e8e4e4351cb2369b76076812ed3/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b31c46403fbaf9c3685255ed7e3c1399/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b31c46403fbaf9c3685255ed7e3c1399/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/d5fb69260f78da30381302f5ad1dbb9e/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/d5fb69260f78da30381302f5ad1dbb9e/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/898ec3de8dfaf3e2cb5d980f4e1ed582/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/898ec3de8dfaf3e2cb5d980f4e1ed582/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /Users/ggangmin/.gradle/caches/transforms-3/1101b2d2b4a8d7cdb85d45699c03c1f0/transformed/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /Users/ggangmin/.gradle/caches/transforms-3/1101b2d2b4a8d7cdb85d45699c03c1f0/transformed/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.core:core:1.5.0] /Users/ggangmin/.gradle/caches/transforms-3/e393b140d81038230e1b80dbd02426a6/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/ggangmin/.gradle/caches/transforms-3/e393b140d81038230e1b80dbd02426a6/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/abe8a8c81efe49cfd82ef34800d7e229/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/abe8a8c81efe49cfd82ef34800d7e229/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/f49c717b4140bf13f2984854abac879a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/f49c717b4140bf13f2984854abac879a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.naver.maps:geometry:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/2782ace0237c28e4ed0f082fe156117e/transformed/jetified-geometry-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.naver.maps:geometry:1.2.0] /Users/ggangmin/.gradle/caches/transforms-3/2782ace0237c28e4ed0f082fe156117e/transformed/jetified-geometry-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/a2600ef7f05272d314800bd4eddbeee9/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/a2600ef7f05272d314800bd4eddbeee9/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/0d9289692833a5e29e0095b02766dda6/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/ggangmin/.gradle/caches/transforms-3/0d9289692833a5e29e0095b02766dda6/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ggangmin/.gradle/caches/transforms-3/47d02212f3afbd10d5368e765807541a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ggangmin/.gradle/caches/transforms-3/47d02212f3afbd10d5368e765807541a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b8213547a8a3bba285a53989895f5ad4/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b8213547a8a3bba285a53989895f5ad4/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/c7960946c4ad2b18d690bf3c5f3699c9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/c7960946c4ad2b18d690bf3c5f3699c9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/2cfefe66bc9494325dc9f7f33e3f56ad/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/2cfefe66bc9494325dc9f7f33e3f56ad/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b84213a39233717d58eb0944cf240f56/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b84213a39233717d58eb0944cf240f56/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ggangmin/.gradle/caches/transforms-3/33dd3301aef2ec274c89852bc067263e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ggangmin/.gradle/caches/transforms-3/33dd3301aef2ec274c89852bc067263e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /Users/ggangmin/.gradle/caches/transforms-3/1586158688dac7a76ee330923eaa98eb/transformed/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /Users/ggangmin/.gradle/caches/transforms-3/1586158688dac7a76ee330923eaa98eb/transformed/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/4358a24ea4b1501bc3fc5de0226f2756/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/4358a24ea4b1501bc3fc5de0226f2756/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/e60c1f669fe7755d133545a7df3430b3/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/e60c1f669fe7755d133545a7df3430b3/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ggangmin/.gradle/caches/transforms-3/9fbbea5f211aeef8cbd4e17a7811305b/transformed/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ggangmin/.gradle/caches/transforms-3/9fbbea5f211aeef8cbd4e17a7811305b/transformed/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/ggangmin/.gradle/caches/transforms-3/2446304bf2874b7b607053b0d95adc4e/transformed/jetified-relinker-1.4.3/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/ggangmin/.gradle/caches/transforms-3/2446304bf2874b7b607053b0d95adc4e/transformed/jetified-relinker-1.4.3/AndroidManifest.xml:5:5-43
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /Users/ggangmin/.gradle/caches/transforms-3/2ef2d8b2723fca0a8f0c9910aff154f5/transformed/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /Users/ggangmin/.gradle/caches/transforms-3/2ef2d8b2723fca0a8f0c9910aff154f5/transformed/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ggangmin/AndroidStudioProjects/Comprehensive-Design-2/Android/FlatLoad_Real/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:9:5-11:35
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:9:5-11:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:12:5-14:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:12:5-14:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:13:9-45
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /Users/ggangmin/.gradle/caches/transforms-3/06c18f02fa93eb002c24c56908842167/transformed/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:18:22-73
+activity#com.naver.maps.map.app.LegendActivity
+ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:21:9-25:51
+	android:label
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:24:13-52
+	android:configChanges
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:23:13-91
+	android:theme
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:25:13-48
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:22:13-65
+activity#com.naver.maps.map.app.LegalNoticeActivity
+ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:26:9-30:51
+	android:label
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:29:13-58
+	android:configChanges
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:28:13-91
+	android:theme
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:27:13-70
+activity#com.naver.maps.map.app.OpenSourceLicenseActivity
+ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:31:9-35:51
+	android:label
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:34:13-65
+	android:configChanges
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:33:13-91
+	android:theme
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:35:13-48
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.12.0] /Users/ggangmin/.gradle/caches/transforms-3/4fc0c95a29ae562e071ff5f06e479c11/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:32:13-76
+queries
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/ggangmin/.gradle/caches/transforms-3/86426e5ebef44e55d0a95a28f7cf8662/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/a15f9e579da349ee5b2e7fe4747490a2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/a15f9e579da349ee5b2e7fe4747490a2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/a15f9e579da349ee5b2e7fe4747490a2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/ggangmin/.gradle/caches/transforms-3/a15f9e579da349ee5b2e7fe4747490a2/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:22-65
+provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:18:9-22:39
+	android:authorities
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:20:13-79
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:21:13-37
+	android:initOrder
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:19:13-93
+service#com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:24:9-26:72
+	android:permission
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/ggangmin/.gradle/caches/transforms-3/5b38b2687ba6804bfe360f66f6161897/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:25:13-93
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b8213547a8a3bba285a53989895f5ad4/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/ggangmin/.gradle/caches/transforms-3/b8213547a8a3bba285a53989895f5ad4/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/ggangmin/.gradle/caches/transforms-3/63925634ab5bcc73e2806b2cb268cb6b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

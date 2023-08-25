@@ -21,7 +21,7 @@ class MarkerResultActivity : AppCompatActivity() {
 //        val markerLoc = i.getSerializableExtra("markerLocation") as LatlngIntent
 //        val latlng = markerLoc.latlng
         val bundle = i.getParcelableExtra<Bundle>("bundle")
-        val latlng = bundle.getParcelable<LatLng>("location")
+        val latlng = bundle?.getParcelable<LatLng>("location")
         Log.d("latlng",latlng.toString())
 
         //val txtLoc = mgeocorder.getFromLocation(latlng!!.latitude,latlng!!.longitude,1)[0]
@@ -33,16 +33,18 @@ class MarkerResultActivity : AppCompatActivity() {
                 latlng.latitude,
                 latlng.longitude,
                 1
-            )[0]
-            if (txtLoc.getAddressLine(0) != null) {
-                textView6.setText(txtLoc.getAddressLine(0))
-            }else{
-                textView6.setText(latlng.toString())
+            )?.get(0)
+            if (txtLoc != null) {
+                if (txtLoc.getAddressLine(0) != null) {
+                    textView6.setText(txtLoc.getAddressLine(0))
+                }else{
+                    textView6.setText(latlng.toString())
+                }
             }
         }
         //textView6.text = latlng.toString()
         val decodedBytes = i.getByteArrayExtra("image")
-        val bitmap = BitmapFactory.decodeByteArray(decodedBytes, 0, decodedBytes.size)
+        val bitmap = decodedBytes?.let { BitmapFactory.decodeByteArray(decodedBytes, 0, it.size) }
         imageView3.setImageBitmap(bitmap)
 
 //        val imagestr = i.getStringExtra("imageString")

@@ -25,10 +25,10 @@ import com.google.android.gms.location.*
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
-import com.kakao.sdk.newtoneapi.SpeechRecognizerManager
-import com.kakao.sdk.newtoneapi.TextToSpeechClient
-import com.kakao.sdk.newtoneapi.TextToSpeechListener
-import com.kakao.sdk.newtoneapi.TextToSpeechManager
+//import com.kakao.sdk.newtoneapi.SpeechRecognizerManager
+//import com.kakao.sdk.newtoneapi.TextToSpeechClient
+//import com.kakao.sdk.newtoneapi.TextToSpeechListener
+//import com.kakao.sdk.newtoneapi.TextToSpeechManager
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.*
 import com.naver.maps.map.MapFragment
@@ -95,7 +95,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     //위치
     private lateinit var locationSource: FusedLocationSource
     //TTS 클라이언트
-    var ttsClient : TextToSpeechClient? = null
+//    var ttsClient : TextToSpeechClient? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -128,7 +128,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
 
         mapView.getMapAsync(this)
         Log.i("mapView","getMapAsync시작")
-        textToSpeech()
+//        textToSpeech()
         //getuserlocationMapFragment()
         //locationUpdates()
         //locationSource = FusedLocationSource(this, LOCATION_PERMISSION_REQUEST_CODE)
@@ -232,13 +232,13 @@ class MapFragment : Fragment(), OnMapReadyCallback {
                     Log.d("next_distance", next_distance.toString())
                     if (next_distance <= DISTANCE_BETWEEN_LOCATION_OBSTACLE.toDouble()) {
                         //Log.d("distance","반경 10m 이내에 위험요소가 있습니다. 위험요소와의 거리는"+next_risk.toString()+"입니다")
-                        ttsClient?.setSpeechText(
-                            "위험요소와 가까이 있습니다. 위험요소와의 직선 거리는" + String.format(
-                                "%.2f",
-                                next_distance
-                            ) + "미터 입니다."
-                        )
-                        ttsClient?.play()
+//                        ttsClient?.setSpeechText(
+//                            "위험요소와 가까이 있습니다. 위험요소와의 직선 거리는" + String.format(
+//                                "%.2f",
+//                                next_distance
+//                            ) + "미터 입니다."
+//                        )
+//                        ttsClient?.play()
                         if (ROADVIEWINFO_INDEX < list_RoadviewInfo.size - 1) {
                             ROADVIEWINFO_INDEX = ROADVIEWINFO_INDEX + 1
                         } else {
@@ -253,8 +253,8 @@ class MapFragment : Fragment(), OnMapReadyCallback {
                         if (start_distance <= DISTANCE_BETWEEN_LOCATION_PLACE.toDouble()){
                             Log.d("latlngList 안 안","***********")
                             //ttsClient?.stop()
-                            ttsClient?.setSpeechText("현재 위치는 출발지입니다")
-                            ttsClient?.play()
+//                            ttsClient?.setSpeechText("현재 위치는 출발지입니다")
+//                            ttsClient?.play()
                             ttsStart = true
                         }
                     }
@@ -262,8 +262,8 @@ class MapFragment : Fragment(), OnMapReadyCallback {
                         destination_distance = distance(latlngList[latlngList.size-1].latitude,latlngList[latlngList.size-1].longitude, location.latitude,location.longitude,"meter")
                         if(destination_distance <= DISTANCE_BETWEEN_LOCATION_PLACE.toDouble()){
                             //ttsClient?.stop()
-                            ttsClient?.setSpeechText("최종 목적지에 도착했습니다")
-                            ttsClient?.play()
+//                            ttsClient?.setSpeechText("최종 목적지에 도착했습니다")
+//                            ttsClient?.play()
                             ttsDest = true
                         }
                     }
@@ -448,33 +448,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     }
 
 
-    private fun textToSpeech(){
-        SpeechRecognizerManager.getInstance().initializeLibrary(requireContext())
-        TextToSpeechManager.getInstance().initializeLibrary(requireContext())
-        //TTS 클라이언트 생성
-        ttsClient = TextToSpeechClient.Builder()
-            .setSpeechMode(TextToSpeechClient.NEWTONE_TALK_1)     // 음성합성방식
-            .setSpeechSpeed(0.9)                                  // 발음 속도
-            .setSpeechVoice(TextToSpeechClient.VOICE_MAN_READ_CALM)  //TTS 음색 모드 설정(여성 차분한 낭독체)
-            .setListener(object : TextToSpeechListener {
-                //음성합성이 종료될 때 호출된다.
-                override fun onFinished() {
-                    val intSentSize = ttsClient?.getSentDataSize()      //세션 중에 전송한 데이터 사이즈
-                    val intRecvSize = ttsClient?.getReceivedDataSize()  //세션 중에 전송받은 데이터 사이즈
-                    val strInacctiveText = "handleFinished() SentSize : $intSentSize  RecvSize : $intRecvSize"
-                    ttsClient?.stop()
-//                    handler.postDelayed(Runnable {
-//                        sttclient.startRecording(true)
-//                    }, 0)
-                    Log.i("kakao", strInacctiveText)
-                }
-                override fun onError(code: Int, message: String?) {
-                    Log.d("kakao", code.toString())
-                }
-            })
-            .build()
 
-    }
 
     private fun sendToServerMapCoord(oneLatLng:LatLng, twoLatLng:LatLng, threeLatLng:LatLng, fourLatLng:LatLng){
         var coordOne = oneLatLng.latitude.toString()+","+oneLatLng.longitude.toString()
@@ -597,7 +571,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
                 }
             }
             override fun onFailure(call: Call<Array<JsonObject>>, t: Throwable) {
-                Log.d("실패 onFailure 안", t.message)
+                t.message?.let { Log.d("실패 onFailure 안", it) }
                 Toast.makeText(requireContext(), t.message, Toast.LENGTH_SHORT).show()
                 //finish()
             }

@@ -20,7 +20,7 @@ import java.security.MessageDigest
 
 class MainActivity : AppCompatActivity() {
     private val fragmentCommunity by lazy { CommunityFragment() }
-    private val fragmentInputWay by lazy { InputWayFragment() }
+//    private val fragmentInputWay by lazy { InputWayFragment() }
     private val fragmentMap by lazy { MapFragment() }
     private val fragmentAddRisk by lazy { AddRiskFragment() }
 
@@ -54,7 +54,8 @@ class MainActivity : AppCompatActivity() {
                         setFragment(fragmentMap,"1")
                     }
                     R.id.second -> {
-                        setFragment(fragmentInputWay,"2")
+                        setFragment(fragmentMap,"2")
+//                        setFragment(fragmentInputWay,"2")
                     }
                     R.id.third -> {
                         setFragment(fragmentCommunity, "3")

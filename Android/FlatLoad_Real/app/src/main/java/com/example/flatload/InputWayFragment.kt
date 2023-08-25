@@ -114,7 +114,8 @@ class InputWayFragment : Fragment() {
         button_inputway_now.setOnClickListener { view ->
             //loc.latitude,loc.longitude <- 현재 위치 위도 경도
             //위도 경도-> 텍스트 변경해서 출발지 edittext에 표시
-            val txtLoc = mgeocorder.getFromLocation((activity as MainActivity).loc.latitude,(activity as MainActivity).loc.longitude,1)[0]
+            val txtLoc = mgeocorder.getFromLocation((activity as MainActivity).loc.latitude,(activity as MainActivity).loc.longitude,1)
+                ?.get(0)
             origin = LatLng((activity as MainActivity).loc.latitude,(activity as MainActivity).loc.longitude)
             if(txtLoc.getAddressLine(0)!=null){
                 editText_inputway_start.setText(txtLoc.getAddressLine(0))

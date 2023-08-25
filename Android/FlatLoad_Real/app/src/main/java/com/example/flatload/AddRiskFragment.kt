@@ -126,10 +126,13 @@ class AddRiskFragment : Fragment() {
         }
         //현재 위치 버튼 클릭
         button_addrisk_now.setOnClickListener { view ->
-            val txtLoc = mgeocorder.getFromLocation((activity as MainActivity).loc.latitude,(activity as MainActivity).loc.longitude,1)[0]
+            val txtLoc = mgeocorder!!.getFromLocation((activity as MainActivity).loc.latitude,(activity as MainActivity).loc.longitude,1)
+                ?.get(0)
             locFinal = LatLng((activity as MainActivity).loc.latitude,(activity as MainActivity).loc.longitude)
-            if(txtLoc.getAddressLine(0)!=null){
-                editText_addrisk_location.setText(txtLoc.getAddressLine(0))
+            if (txtLoc != null) {
+                if(txtLoc.getAddressLine(0)!=null){
+                    editText_addrisk_location.setText(txtLoc.getAddressLine(0))
+                }
             }
         }
         //사진 데이터 버튼 클릭
@@ -139,7 +142,8 @@ class AddRiskFragment : Fragment() {
             if(::locFinal.isInitialized){
                 println("위도"+locFinal.latitude.toString()+"경도"+locFinal.longitude.toString())
 
-                var txtLoc : List<Address> = mgeocorder.getFromLocation(locFinal.latitude,locFinal.longitude,1)
+                var txtLoc : List<Address> =
+                    mgeocorder.getFromLocation(locFinal.latitude,locFinal.longitude,1) as List<Address>
                 if (txtLoc != null && txtLoc.size > 0){   //txtLoc가 null이 아니면서 txtLoc.size가 0인 경우가 있음....
                     var subtxtLoc = txtLoc.get(0)
                     if(subtxtLoc.getAddressLine(0)!=null){
@@ -251,7 +255,7 @@ class AddRiskFragment : Fragment() {
                 }
             }
             override fun onFailure(call: Call<String>, t: Throwable) {
-                Log.d("MYTEST", t.message)
+                t.message?.let { Log.d("MYTEST", it) }
                 Toast.makeText(requireContext(), "위험요소 등록에 실패했습니다", Toast.LENGTH_SHORT).show()
                 //finish()
             }

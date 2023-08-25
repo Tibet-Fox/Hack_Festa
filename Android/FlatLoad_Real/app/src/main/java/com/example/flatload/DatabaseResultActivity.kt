@@ -35,7 +35,7 @@ class DatabaseResultActivity : AppCompatActivity() {
     private fun init() {
         val i = intent
         val bundle = i.getParcelableExtra<Bundle>("bundle")
-        val latlng = bundle.getParcelable<LatLng>("location")
+        val latlng = bundle?.getParcelable<LatLng>("location")
         val mgeocorder: Geocoder = Geocoder(this, Locale.getDefault())
 
         if (latlng != null) {
@@ -43,11 +43,13 @@ class DatabaseResultActivity : AppCompatActivity() {
                 latlng.latitude,
                 latlng.longitude,
                 1
-            )[0]
-            if (txtLoc.getAddressLine(0) != null) {
-                textView_location.setText(txtLoc.getAddressLine(0))
-            }else{
-                textView_location.setText(latlng.toString())
+            )?.get(0)
+            if (txtLoc != null) {
+                if (txtLoc.getAddressLine(0) != null) {
+                    textView_location.setText(txtLoc.getAddressLine(0))
+                }else{
+                    textView_location.setText(latlng.toString())
+                }
             }
         }
 //        val mgeocorder: Geocoder = Geocoder(this, Locale.getDefault())
@@ -66,7 +68,7 @@ class DatabaseResultActivity : AppCompatActivity() {
         textView_obstacle.setText(obstacle)
         if(!(i.getStringExtra("image").isNullOrEmpty())){
             val decodedBytes = i.getByteArrayExtra("image")
-            val bitmap = BitmapFactory.decodeByteArray(decodedBytes, 0, decodedBytes.size)
+            val bitmap = decodedBytes?.let { BitmapFactory.decodeByteArray(decodedBytes, 0, it.size) }
             imageView.setImageBitmap(bitmap)
         }
 
